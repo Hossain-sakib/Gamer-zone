@@ -76,3 +76,95 @@ nav li a {
 .follow-us-icons img {
     width: 24px;
 }
+
+/* banner */
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content {
+    background-image: url("./images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 48%;
+    height: 490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text h1 {
+    color: #0b0223;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.banner-text {
+    max-width: 260px;
+}
+
+.banner-text .goat-color {
+    font-size: 4.85rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.banner-text p {
+    color: #534c64;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.text-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.text-icons img {
+    width: 20px;
+}
+
+.banner-text .btn {
+    background-color: #4ec5f7;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.banner-img{
+    width: 48%;
+}
+.banner-img img{
+    width: 500px;
+  height: 460x;
+}
+
+
+@media screen and (max-width: 576px) {
+
+    header {
+        box-shadow: none;
+        margin-top: 30px;
+    }
+
+
+    .logo-container {
+        margin-bottom: 30px;
+    }
+
+    nav,
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+
+
+
+}
