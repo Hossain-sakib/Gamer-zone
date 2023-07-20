@@ -591,5 +591,21 @@ footer p {
         right: 350px;
     }
 
-
+    .category {
+        padding: 2px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 20px;
+      }
+      .image-button {
+        padding: 7px 14px;
+        margin: 10px 1px;
+      }
+      .image-button img {
+        margin-right: 2px;
+      }
+    
+      footer ul {
+        flex-wrap: wrap;
+      }
 }
