@@ -216,15 +216,15 @@ nav li a {
 }
 
 .img {
-    transition: 0.6s ease;
+    transition: 0.5s ease;
 }
 
 .middle {
-    transition: 0.6s ease;
+    transition: 0.5s ease;
     opacity: 0;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 33%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
